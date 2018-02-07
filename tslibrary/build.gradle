@@ -39,6 +39,11 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     compile deps.timber
 
-
     //dagger
+    compile deps.dagger
+    compile deps.daggerAndroidSupport
+
+    kapt deps.daggerCompiler
+    kapt deps.daggerAndroidCompiler
+
 }
