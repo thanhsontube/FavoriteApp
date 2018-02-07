@@ -5,6 +5,10 @@
 
         //dagger
         daggerVersion = '2.11'
+
+        //rxjava
+        rxJavaVersion = '2.0.1'
+        rxAndroidVersion = '2.0.1'
     }
 
     ext.deps = [
@@ -17,6 +21,10 @@
             daggerAndroidCompiler            : "com.google.dagger:dagger-android-processor:${daggerVersion}",
             dagger                    : "com.google.dagger:dagger:${daggerVersion}",
             daggerAndroidSupport      : "com.google.dagger:dagger-android-support:${daggerVersion}",
+
+            //rxjava
+            rxJava                    : "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
+            rxAndroid                 : "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
     ]
 
 

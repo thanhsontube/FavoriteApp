@@ -46,4 +46,8 @@ dependencies {
     kapt deps.daggerCompiler
     kapt deps.daggerAndroidCompiler
 
+    //rx
+    compile deps.rxJava
+    compile deps.rxAndroid
+
 }
