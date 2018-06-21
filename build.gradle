@@ -2,7 +2,7 @@
 
 buildscript {
     apply from: 'tslibrary/libdependences.gradle'
-    ext.kotlin_version = '1.1.51'
+    ext.kotlin_version = '1.2.30'
 
     repositories {
         google()
@@ -23,5 +23,3 @@ allprojects {
         jcenter()
     }
 }
-
-

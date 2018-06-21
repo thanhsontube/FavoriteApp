@@ -1,1 +1,1 @@
-include ':app', ':tslibrary'
+include ':app', ':tslibrary', ':debugmode', ':debugmode'
