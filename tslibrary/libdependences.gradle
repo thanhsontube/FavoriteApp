@@ -1,26 +1,14 @@
     ext.kotlin_version = '1.1.51'
-    ext {
-        //timber
-        timberVersion = '4.6.0'
-
-        //dagger
-        daggerVersion = '2.11'
-
-        //rxjava
-        rxJavaVersion = '2.0.1'
-        rxAndroidVersion = '2.0.1'
-    }
-
     ext.versions = [
             //timber
-            timber : '4.6.0',
+            timber : '4.7.0',
 
             //dagger
-            dagger : '2.11',
+            dagger : '2.16',
 
             //rxjava
-            rxJava : '2.0.1',
-            rxAndroid : '2.0.1'
+            rxJava : '2.1.14',
+            rxAndroid : '2.0.2'
     ]
 
     ext.deps = [
@@ -29,14 +17,14 @@
             timber                    : "com.jakewharton.timber:timber:${versions.timber}",
 
             //dagger
-            daggerCompiler            : "com.google.dagger:dagger-compiler:${daggerVersion}",
-            daggerAndroidCompiler            : "com.google.dagger:dagger-android-processor:${daggerVersion}",
-            dagger                    : "com.google.dagger:dagger:${daggerVersion}",
-            daggerAndroidSupport      : "com.google.dagger:dagger-android-support:${daggerVersion}",
+            daggerCompiler            : "com.google.dagger:dagger-compiler:${versions.dagger}",
+            daggerAndroidCompiler     : "com.google.dagger:dagger-android-processor:${versions.dagger}",
+            dagger                    : "com.google.dagger:dagger:${versions.dagger}",
+            daggerAndroidSupport      : "com.google.dagger:dagger-android-support:${versions.dagger}",
 
             //rxjava
-            rxJava                    : "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
-            rxAndroid                 : "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
+            rxJava                    : "io.reactivex.rxjava2:rxjava:${versions.rxJava}",
+            rxAndroid                 : "io.reactivex.rxjava2:rxandroid:${versions.rxAndroid}",
     ]
 
 
