@@ -17,7 +17,7 @@ allprojects {
             rxAndroid : '2.0.2'
     ]
 
-    ext.deps = [
+    ext.libs = [
 
             //timber
             timber                    : "com.jakewharton.timber:timber:${versions.timber}",

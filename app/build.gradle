@@ -41,9 +41,9 @@ dependencies {
     compile project(':debugmode')
 
     //dagger
-    compile deps.dagger
-    compile deps.daggerAndroidSupport
+    compile libs.dagger
+    compile libs.daggerAndroidSupport
     //dagger
-    kapt deps.daggerCompiler
-    kapt deps.daggerAndroidCompiler
+    kapt libs.daggerCompiler
+    kapt libs.daggerAndroidCompiler
 }
