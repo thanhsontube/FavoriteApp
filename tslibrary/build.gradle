@@ -29,17 +29,17 @@ android {
 //    generateStubs = true
 //}
 dependencies {
-    compile libs.timber
+    api libs.timber
 
     //dagger
-    compile libs.dagger
-    compile libs.daggerAndroidSupport
+    api libs.dagger
+    api libs.daggerAndroidSupport
 
     kapt libs.daggerCompiler
     kapt libs.daggerAndroidCompiler
 
     //rx
-    compile libs.rxJava
-    compile libs.rxAndroid
+    api libs.rxJava
+    api libs.rxAndroid
 
 }

@@ -1,1 +1,1 @@
-include ':app', ':tslibrary', ':debugmode', ':debugmode'
+include ':app', ':tslibrary', ':debugmode', ':debugmode', ':tsandroid'

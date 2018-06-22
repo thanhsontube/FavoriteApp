@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import io.reactivex.Observable
 import lab.ts.favoriteapp.useCases.UseCaseApps
 import timber.log.Timber
+import ts.labs.tsandroid.TsAndroid
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 
@@ -22,5 +23,10 @@ class MainActivity : AppCompatActivity() {
 
         app().appComponent.inject(this)
         useCaseApps.getAllApps().subscribe()
+    }
+
+
+    fun test1() {
+        val t1: TsAndroid? = null
     }
 }
