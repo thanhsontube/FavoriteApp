@@ -11,10 +11,22 @@
         rxAndroidVersion = '2.0.1'
     }
 
+    ext.versions = [
+            //timber
+            timber : '4.6.0',
+
+            //dagger
+            dagger : '2.11',
+
+            //rxjava
+            rxJava : '2.0.1',
+            rxAndroid : '2.0.1'
+    ]
+
     ext.deps = [
 
             //timber
-            timber                    : "com.jakewharton.timber:timber:$timberVersion",
+            timber                    : "com.jakewharton.timber:timber:${versions.timber}",
 
             //dagger
             daggerCompiler            : "com.google.dagger:dagger-compiler:${daggerVersion}",
