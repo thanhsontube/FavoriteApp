@@ -3,17 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="lab.ts.favoriteapp">
 
-    <application
-        android:name=".MainApplication"
-        android:theme="@style/AppTheme">
+    <!--<application-->
+        <!--android:name=".MainApplication"-->
+        <!--android:theme="@style/AppTheme">-->
 
-        <activity android:name="lab.ts.debugmode.MyMainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <!--<activity android:name="lab.ts.debugmode.MyMainActivity">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+    <!--</application>-->
 
 </manifest>

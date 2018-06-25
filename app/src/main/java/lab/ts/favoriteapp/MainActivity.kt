@@ -25,6 +25,10 @@ class MainActivity : AppCompatActivity() {
         useCaseApps.getAllApps().subscribe()
     }
 
+    override fun onSupportNavigateUp(): Boolean {
+        return super.onSupportNavigateUp()
+    }
+
 
     fun test1() {
         val t1: TsAndroid? = null
